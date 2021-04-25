@@ -1,7 +1,4 @@
-@font-face {
-  font-family: bi;
-  url('https://github.com/Aadesh9985/fonts/blob/9800a031524319bff80c8677f874658a9639fc9b/ls.otf') format('opentype');
-}
+@import url('http://fonts.cdnfonts.com/css/neon-lights')
 :root {
   font-size:10px;
   --neon-text-color:#63a4cb;
@@ -26,7 +23,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -35%);
   position: absolute;
-  font-family: bi;
+  font-family: 'Neon Lights', sans-serif;
 }
 
 .text-flicker-in-glow {
