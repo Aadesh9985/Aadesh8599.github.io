@@ -1,0 +1,109 @@
+@font-face {
+  font-family: bi;
+  url('aadesh9985.github.io/Aadesh9958.github.io/non.otf') format('opentype');
+}
+:root {
+  font-size:10px;
+  --neon-text-color:#63a4cb;
+  }
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 12.5rem;
+  color: #fff;
+  padding: 0rem;
+  letter-spacing: 5px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  position: absolute;
+  font-family: bi;
+}
+
+.text-flicker-in-glow {
+	        animation: text-flicker-in-glow 3s linear both;
+}
+
+
+@keyframes text-flicker-in-glow {
+  0%, 10%, 10.1%, 10.2%, 20%,20.6%, 30%, 30.6%,45%, 55.1%, 57%, 60.1%, 65%, 75.1%, 77%, 85.1%, 86%{
+    opacity: 0;
+    text-shadow: none;
+  }
+
+  20.1%, 30.1%, 30.5%, 45.1%,50%,55%, 57.1%, 60%, 65.1% , 75%, 77.1%, 85%, 86.1%{
+    opacity: 0.8;
+    text-shadow:
+  /*   -0.1rem -0.1rem 0.2rem #fff,
+     0.1rem 0.1rem 0.2rem #fff,*/
+    0 0 0.5rem var(--neon-text-color),
+    0 0 2rem var(--neon-text-color),
+    0 0 5rem var(--neon-text-color);
+  }
+
+  100%{
+    opacity: 1;
+    text-shadow:
+    0 0 1rem var(--neon-text-color),
+    0 0 3rem var(--neon-text-color),
+    0 0 4.5rem var(--neon-text-color),
+    0 0 7rem var(--neon-text-color);
+  }
+}
+
+.progress {
+  margin-top: 20px;
+  height: 4px;
+  width: 700px;
+  background-color: #181818;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+}
+
+.current-progress {
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+  transition: all 0.3s;
+  animation: text-flicker-in-glow 3s linear both;
+}
+
+@keyframes current-progress {
+  0%, 10%, 10.1%, 10.2%, 20%,20.6%, 30%, 30.6%,45%, 55.1%, 57%, 60.1%, 65%, 75.1%, 77%, 85.1%, 86%{
+    opacity: 0;
+    text-shadow: none;
+  }
+
+  20.1%, 30.1%, 30.5%, 45.1%,50%,55%, 57.1%, 60%, 65.1% , 75%, 77.1%, 85%, 86.1%{
+    opacity: 0.8;
+    text-shadow:
+  /*   -0.1rem -0.1rem 0.2rem #fff,
+     0.1rem 0.1rem 0.2rem #fff,*/
+    0 0 0.5rem var(--neon-text-color),
+    0 0 2rem var(--neon-text-color),
+    0 0 5rem var(--neon-text-color);
+  }
+
+  100%{
+    opacity: 1;
+    text-shadow:
+    0 0 1rem var(--neon-text-color),
+    0 0 3rem var(--neon-text-color),
+    0 0 4.5rem var(--neon-text-color),
+    0 0 7rem var(--neon-text-color);
+  }
+}
