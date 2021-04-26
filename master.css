@@ -23,7 +23,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -35%);
   position: absolute;
-  font-family: 'Neon Lights', sans-serif;
+  font-family: Neon Lights;
 }
 
 .text-flicker-in-glow {
