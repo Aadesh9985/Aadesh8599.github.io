@@ -2,10 +2,12 @@
 <html lang="en" dir="ltr">
   <head>
     <title>____A_G____</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="master.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="master.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://db.onlinewebfonts.com/c/8174214b59c74c684285ae6b35662282?family=Neoneon" rel="stylesheet" type="text/css"/>
     <link href="https://db.onlinewebfonts.com/c/0c3856a335fdfdb8b0652f7c3d367fdd?family=Moderat" rel="stylesheet" type="text/css"/>
     <link href="https://db.onlinewebfonts.com/c/f78a1ec600555b4cff33d243d3db476e?family=Inconsolata" rel="stylesheet" type="text/css"/>
@@ -14,15 +16,34 @@
     <link href="https://db.onlinewebfonts.com/c/27ea2815dafcd0267000f4a832b050a5?family=Inconsolata+Medium" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <h1 class="text-flicker-in-glow ufc">
-      <p>AG</p>
-    </h1>
+    <div class="content">
+      <h1 class="coming--soon hide ufc ls"><a href="#">COMING SOON</a></h1>
+      <p class="hide pg ls">THIS WEBSITE IS UNDER CONSTRUCTION</p>
+    </div>
     <center>
-      <div class="progress">
-        <div class="current-progress text-flicker-in-glow">
+      <div class="loader-wrapper">
+        <h1 class="ag text-flicker-in-glow ufc ls">
+          <p>AG</p>
+        </h1>
+        <div class="progress">
+          <div class="current-progress text-flicker-in-glow"></div>
         </div>
       </div>
     </center>
+    <script>
+      $(window).load(function () {
+        setTimeout(function () {
+          $(".loader-wrapper").fadeOut("fast");
+          setTimeout(function () {
+            $(".progress, .ls").fadeOut("fast");
+
+            setTimeout(function () {
+              $(".content").addClass("animated fadeInDown").fadeIn("slow");
+            }, 900);
+          }, 700);
+        }, 700);
+      });
+    </script>
     <script src="master.js"></script>
   </body>
 </html>
