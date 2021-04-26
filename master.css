@@ -219,7 +219,10 @@ h1 {
     transform: translate(-50%, -30%);
   }
 .coming--soon{
-  font-size: 2.4rem;
+  font-size: 2.9rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
  }
 
 .pg{
@@ -227,7 +230,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  line-height: 1.125rem;
+  line-height: 1.13rem;
   top: 39%;
   left: 50%;
   transform: translate(-50%, -39%);
