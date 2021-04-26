@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/neon-lights')
+
 :root {
   font-size:10px;
   --neon-text-color:#63a4cb;
@@ -23,7 +23,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -35%);
   position: absolute;
-  font-family: Neon Lights;
+  font-family: monospace;
 }
 
 .text-flicker-in-glow {
