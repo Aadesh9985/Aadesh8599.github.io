@@ -1,66 +1,141 @@
-@import url("https://db.onlinewebfonts.com/c/8174214b59c74c684285ae6b35662282?family=Neoneon");
-@import url("https://db.onlinewebfonts.com/c/0c3856a335fdfdb8b0652f7c3d367fdd?family=Moderat");
-@import url("https:////db.onlinewebfonts.com/c/27ea2815dafcd0267000f4a832b050a5?family=Inconsolata+Medium");
-@import url("https://db.onlinewebfonts.com/c/2605067aeef64be467fb41efea86fd13?family=Inconsolata+Black");
-@import url("https://db.onlinewebfonts.com/c/91af74ef87e4bc5b348c81da940be910?family=Inconsolata+Light");
-@import url("https://db.onlinewebfonts.com/c/e156a118727053f0f6072d0ee05a48eb?family=Inconsolata");
+@import url(//db.onlinewebfonts.com/c/8174214b59c74c684285ae6b35662282?family=Neoneon);
+@import url(https://db.onlinewebfonts.com/c/0c3856a335fdfdb8b0652f7c3d367fdd?family=Moderat);
+@import url(https:////db.onlinewebfonts.com/c/27ea2815dafcd0267000f4a832b050a5?family=Inconsolata+Medium);
+@import url(https://db.onlinewebfonts.com/c/2605067aeef64be467fb41efea86fd13?family=Inconsolata+Black);
+@import url(https://db.onlinewebfonts.com/c/91af74ef87e4bc5b348c81da940be910?family=Inconsolata+Light);
+@import url(https://db.onlinewebfonts.com/c/e156a118727053f0f6072d0ee05a48eb?family=Inconsolata);
 
-@font-face {font-family: "Neoneon";
-  src: url("https://db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.eot");
-	src: url("https://db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.eot?#iefix") format("embedded-opentype"),
-	     url("https://db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.woff2") format("woff2"),
-	     url("https://db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.woff") format("woff"),
-	     url("https://db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.ttf") format("truetype"),
-	     url("https://db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.svg#Neoneon") format("svg");
+@font-face {
+  font-family: "Neoneon";
+  src: url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.eot");
+  src: url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.eot?#iefix") format("embedded-opentype"),
+       url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.ttf") format("truetype"),
+       url("//db.onlinewebfonts.com/t/8174214b59c74c684285ae6b35662282.svg#Neoneon") format("svg");
   }
-@font-face {font-family: "Moderat";
-  src: url("https://db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.eot");
-  src: url("https://db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.eot?#iefix") format("embedded-opentype"),
-       url("https://db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.woff2") format("woff2"),
-       url("https://db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.woff") format("woff"),
-       url("https://db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.ttf") format("truetype"),
-       url("https://db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.svg#Moderat") format("svg");
-  }
-
-@font-face {font-family: "Inconsolata Black";
-  src: url("https://db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.eot");
-  src: url("https://db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.eot?#iefix") format("embedded-opentype"),
-       url("https://db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.woff2") format("woff2"),
-       url("https://db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.woff") format("woff"),
-       url("https://db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.ttf") format("truetype"),
-       url("https://db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.svg#Inconsolata Black") format("svg");
+@font-face {
+  font-family: "Moderat";
+  src: url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.eot");
+  src: url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.eot?#iefix") format("embedded-opentype"),
+       url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.ttf") format("truetype"),
+       url("//db.onlinewebfonts.com/t/0c3856a335fdfdb8b0652f7c3d367fdd.svg#Moderat") format("svg");
   }
 
-@font-face {font-family: "Inconsolata Light";
-  src: url("https://db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.eot");
-  src: url("https://db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.eot?#iefix") format("embedded-opentype"),
-       url("https://db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.woff2") format("woff2"),
-       url("https://db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.woff") format("woff"),
-       url("https://db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.ttf") format("truetype"),
-       url("https://db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.svg#Inconsolata Light") format("svg");
+@font-face {
+  font-family: "Inconsolata Black";
+  src: url("//db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.eot");
+  src: url("//db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.eot?#iefix") format("embedded-opentype"),
+       url("//db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.ttf") format("truetype"),
+       url("//db.onlinewebfonts.com/t/2605067aeef64be467fb41efea86fd13.svg#Inconsolata Black") format("svg");
+  }
+
+@font-face {
+  font-family: "Inconsolata Light";
+  src: url("//db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.eot");
+  src: url("//db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.eot?#iefix") format("embedded-opentype"),
+       url("//db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.ttf") format("truetype"),
+       url("//db.onlinewebfonts.com/t/91af74ef87e4bc5b348c81da940be910.svg#Inconsolata Light") format("svg");
   }
 
 @font-face {font-family: "Inconsolata";
-  src: url("https://db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.eot");
-  src: url("https://db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.eot?#iefix") format("embedded-opentype"),
-       url("https://db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.woff2") format("woff2"),
-       url("https://db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.woff") format("woff"),
-       url("https://db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.ttf") format("truetype"),
-       url("https://db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.svg#Inconsolata") format("svg");
-  }
-:root {
-  font-size:10px;
-  --neon-text-color:#63a4cb;
+  src: url("//db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.eot");
+  src: url("//db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.eot?#iefix") format("embedded-opentype"),
+       url("//db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.ttf") format("truetype"),
+       url("//db.onlinewebfonts.com/t/e156a118727053f0f6072d0ee05a48eb.svg#Inconsolata") format("svg");
   }
 
-html{
+:root {
+  font-size: 10px;
+  --neon-text-color: #63a4cb;
+}
+
+html {
   scroll-behavior: smooth;
 }
-body{
+body {
   background: #121212;
   justify-content: center;
   align-items: center;
 }
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100%;
+}
+
+.coming--soon{
+  font-size: 6.5rem;
+  color: #fff;
+  padding: 0rem;
+  letter-spacing: 0.313rem;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -32%);
+  position: absolute;
+  font-weight: normal;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+a {
+  color:#fff;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+a:hover {
+  color: #fff;
+  font-weight: bold;
+  text-shadow:0px 0px 30px #63a4cb;
+  -moz-transition: all 0.6s ease-in;
+  -o-transition: all 0.6s ease-in;
+  -webkit-transition: all 0.6s ease-in;
+  transition: all 0.6s ease-in;
+}
+
+.pg{
+  font-size: 10px;
+  font-family: Inconsolata+Light;
+  letter-spacing: 4px;
+  color: #fff;
+  padding: 0rem;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -47%);
+  position: absolute;
+}
+
 
 h1 {
   font-size: 12.5rem;
@@ -71,17 +146,15 @@ h1 {
   left: 50%;
   transform: translate(-50%, -32%);
   position: absolute;
-  animation: text-flicker-in-glow 3s linear both;
 }
 
-.ufc{
-	font-family: 'Neoneon';
+.ufc {
+  font-family: "Neoneon";
 }
 
 .text-flicker-in-glow {
-	        animation: text-flicker-in-glow 3s linear both;
+  animation: text-flicker-in-glow 3s linear both;
 }
-
 
 @keyframes text-flicker-in-glow {
   0%, 10%, 10.1%, 10.2%, 20%,20.6%, 30%, 30.6%,45%, 55.1%, 57%, 60.1%, 65%, 75.1%, 77%, 85.1%, 86%{
@@ -131,11 +204,11 @@ h1 {
   animation: text-flicker-in-glow 3s linear both;
 }
 
-@media screen and (max-width:800px) {
-  .progress{
+@media screen and (max-width: 800px) {
+  .progress {
     width: 62%;
   }
-  h1{
+  h1 {
     font-size: 9.8rem;
     top: 30%;
     left: 50%;
@@ -143,4 +216,6 @@ h1 {
   }
 }
 
-
+.hide {
+  display: none;
+}
