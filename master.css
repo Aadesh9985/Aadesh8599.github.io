@@ -188,9 +188,9 @@ h1 {
   width: 40%;
   background-color: #121212;
   position: absolute;
-  top: 68%;
+  top: 65%;
   left: 50%;
-  transform: translate(-50%, -68%);
+  transform: translate(-50%, -65%);
 }
 
 .current-progress {
@@ -204,6 +204,10 @@ h1 {
   animation: text-flicker-in-glow 3s linear both;
 }
 
+.hide {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .progress {
     width: 62%;
@@ -214,8 +218,19 @@ h1 {
     left: 50%;
     transform: translate(-50%, -30%);
   }
+.coming--soon{
+  font-size: 2.4rem;
+ }
+
+.pg{
+  font-size: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.125rem;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -39%);
 }
 
-.hide {
-  display: none;
 }
