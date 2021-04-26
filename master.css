@@ -188,9 +188,9 @@ h1 {
   width: 40%;
   background-color: #121212;
   position: absolute;
-  top: 65%;
+  top: 68%;
   left: 50%;
-  transform: translate(-50%, -65%);
+  transform: translate(-50%, -68%);
 }
 
 .current-progress {
