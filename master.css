@@ -264,37 +264,3 @@ h1 {
 
 }
 }
-
-@media screen and (max-width: 376px){
-  .progress {
-    width: 60%;
-  }
-    h1 {
-      font-size: 9.8rem;
-      top: 30%;
-      left: 50%;
-      transform: translate(-50%, -30%);
-    }
-  .coming--soon{
-    font-size: 0.5rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0rem;
-    margin:  0rem;
-   }
-
-  .pg{
-    font-size: 0.75rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 1.131rem;
-    letter-spacing: 0.32rem;
-    top: 76%;
-    left: 50%;
-    transform: translate(-50%, -76%);
-  }
-
-}
-}
