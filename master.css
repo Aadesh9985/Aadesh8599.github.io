@@ -94,7 +94,7 @@ body {
   left: 50%;
   transform: translate(-50%, -32%);
   position: absolute;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 a:link {
@@ -125,14 +125,14 @@ a:hover {
 }
 
 .pg{
-  font-size: 0.9rem;
+  font-size: 1.12rem;
   font-family: Inconsolata+Light;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.31rem;
   color: #fff;
   padding: 0rem;
-  top: 47%;
+  top: 46%;
   left: 50%;
-  transform: translate(-50%, -47%);
+  transform: translate(-50%, -46%);
   position: absolute;
 }
 
