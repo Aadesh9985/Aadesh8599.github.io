@@ -54,7 +54,7 @@
   }
 
 :root {
-  font-size: 10px;
+  font-size: 0.625rem;
   --neon-text-color: #63a4cb;
 }
 
@@ -117,7 +117,7 @@ a {
 a:hover {
   color: #fff;
   font-weight: bold;
-  text-shadow:0px 0px 30px #63a4cb;
+  text-shadow:0rem 0rem 1.875rem #63a4cb;
   -moz-transition: all 0.6s ease-in;
   -o-transition: all 0.6s ease-in;
   -webkit-transition: all 0.6s ease-in;
@@ -125,9 +125,9 @@ a:hover {
 }
 
 .pg{
-  font-size: 10px;
+  font-size: 0.9rem;
   font-family: Inconsolata+Light;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;
   color: #fff;
   padding: 0rem;
   top: 47%;
@@ -142,9 +142,9 @@ h1 {
   color: #fff;
   padding: 0rem;
   letter-spacing: 0.313rem;
-  top: 32%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -32%);
+  transform: translate(-50%, -30%);
   position: absolute;
 }
 
@@ -188,9 +188,9 @@ h1 {
   width: 40%;
   background-color: #121212;
   position: absolute;
-  top: 65%;
+  top: 67%;
   left: 50%;
-  transform: translate(-50%, -65%);
+  transform: translate(-50%, -67%);
 }
 
 .current-progress {
@@ -212,25 +212,89 @@ h1 {
   .progress {
     width: 62%;
   }
-  h1 {
-    font-size: 9.8rem;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -30%);
-  }
-.coming--soon{
-  font-size: 3.24rem;
- }
+    h1 {
+      font-size: 9.8rem;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+    }
+  .coming--soon{
+    font-size: 4.9rem;
+   }
 
-.pg{
-  font-size: 0.610rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  line-height: 1.13rem;
-  top: 39%;
-  left: 50%;
-  transform: translate(-50%, -39%);
+  .pg{
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 0.131rem;
+    letter-spacing: 0.313rem;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -43%);
+  }
+
 }
 
+@media screen and (max-width: 426px){
+  .progress {
+    width: 60%;
+  }
+    h1 {
+      font-size: 9.8rem;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+    }
+  .coming--soon{
+    font-size: 2.8rem;
+   }
+
+  .pg{
+    font-size: 0.79rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.131rem;
+    letter-spacing: 0.321rem;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -39%);
+  }
+
+}
+}
+
+@media screen and (max-width: 376px){
+  .progress {
+    width: 60%;
+  }
+    h1 {
+      font-size: 9.8rem;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+    }
+  .coming--soon{
+    font-size: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0rem;
+    margin:  0rem;
+   }
+
+  .pg{
+    font-size: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.131rem;
+    letter-spacing: 0.32rem;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -76%);
+  }
+
+}
 }
