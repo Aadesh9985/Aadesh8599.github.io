@@ -18,5 +18,6 @@ const timer = setInterval(() => {
     ag.classList.add("animate__fadeOut");
     progressBar.classList.add("hide");
     pbg.classList.add("hide");
+    ag.classList.add("hide");
   }
 }, 1000);
